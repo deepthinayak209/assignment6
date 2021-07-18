@@ -1,0 +1,53 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+<!DOCTYPE student_catalog [
+<!ELEMENT student_catalog (student+)>
+<!ELEMENT student (name, address, marks, hobbies)>
+<!ELEMENT name (fname, lname, mname)>
+<!ELEMENT address (houseno, streetname, cityname, state)>
+<!ELEMENT marks (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+]>
+
+<?xml-stylesheet type="text/css" href="a3.css"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Deepthi </xs:fname>
+	<xs:lname> Nayak </xs:lname>
+	<xs:mname> D </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 10101 </xs:houseno>
+	<xs:streetname> Bokkapatna </xs:streetname>
+	<xs:cityname> Mangalore </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 90 </xs:marks>
+   <xs:hobbies> Reading </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+
+
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Deeksha </xs:fname>
+	<xs:lname> Nayak</xs:lname>
+	<xs:mname> D </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 10201 </xs:houseno>
+	<xs:streetname> Boloor </xs:streetname>
+	<xs:cityname> Mangalore </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 95 </xs:marks>
+   <xs:hobbies> Irritating </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+
+
+</xs:schema>

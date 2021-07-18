@@ -1,0 +1,55 @@
+<?xml version = "1.0"?>  
+<?xml-stylesheet type = "text/xsl" href = "a4.xsl"?>   
+<class>   
+   
+
+   <employee id = "101">   
+      <firstname>AAA</firstname>   
+      <lastname>DDD</lastname>   
+      <middlename>GGG</middlename>   
+      <fathername>JJJ</fathername>  
+       <dob>03-01-1997</dob>
+       <city>Mangalore</city>
+       <state>Karnataka</state>
+       <qualification>BCA</qualification>
+       <salary>56500</salary>
+   </employee> 
+
+   <employee id = "102">   
+      <firstname>BBB</firstname>   
+      <lastname>aaa</lastname>   
+      <middlename>HHH</middlename>   
+      <fathername>KKK</fathername>  
+       <dob>02-01-1998</dob>
+       <city>Mangalore</city>
+       <state>Karnataka</state>
+       <qualification>BCA</qualification>
+       <salary>1450500</salary>
+   </employee> 
+
+   <employee id = "103">   
+      <firstname>CCC</firstname>   
+      <lastname>FFF</lastname>   
+      <middlename>III</middlename>   
+      <fathername>LLL</fathername>  
+       <dob>01-01-1996</dob>
+       <city>Mangalore</city>
+       <state>Karnataka</state>
+       <qualification>BCA</qualification>
+       <salary>10</salary>
+   </employee> 
+
+   <employee id = "104">   
+      <firstname>yyy</firstname>   
+      <lastname>zzz</lastname>   
+      <middlename>xxx</middlename>   
+      <fathername>www</fathername>  
+       <dob>02-01-2000</dob>
+       <city>Mangalore</city>
+       <state>Karnataka</state>
+       <qualification>BCA</qualification>
+       <salary>11050500</salary>
+   </employee>  
+   
+      
+</class>  
